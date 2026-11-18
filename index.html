@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Uma aventura interativa para explorar a raiva e escolher como responder.">
+  <title>Missão Sob Controle</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script defer src="conteudo.js"></script>
+  <script defer src="jogo.js"></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o jogo</a>
+  <noscript><p class="shell no-script">Este jogo usa JavaScript. Abra o arquivo em um navegador ou visualizador de HTML com JavaScript ativado.</p></noscript>
+  <header id="cabecalho" class="topbar"></header>
+  <main id="conteudo" class="shell" tabindex="-1"></main>
+  <footer class="shell footer" id="rodape"></footer>
+  <dialog id="painel" aria-labelledby="painel-titulo"></dialog>
+  <dialog id="reiniciar" aria-labelledby="reiniciar-titulo"></dialog>
+  <div id="aviso" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
